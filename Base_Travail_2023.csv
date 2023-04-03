@@ -1,0 +1,19 @@
+ID;Nom;Sexe;Age;Note;Mention;Work;Salaire;Région;Mention_Aggregé;Frequency
+1;Damiba;F;30;10;Passable;1;229577;Dakar;Passable;2
+2;Basoum;F;28;15;Bien;1;925568;Thies;Bien;6
+3;Sonko;M;21;15;Bien;1;934521;Diourbel;Insuffisant;6
+4;Jonh;M;30;1;Insuffisant;0;933369;Fatick ;Très bien;1
+5;Idy;M;23;14;Bien;1;728499;Kaolack;Abien;3
+6;Adebayor;M;27;7;Insuffisant;1;536451;Kaffrine;;
+7;Drogba;M;27;17;Très bien;0;984280;Matam;;
+8;Mané;M;24;14;Bien;0;304931;Kedougou;;
+9;Naruto;M;28;2;Insuffisant;1;810818;Sediou;;
+10;Sasuke;M;25;8;Insuffisant;1;931879;Ziguinchor;;
+11;Hinata;F;20;13;Abien;0;670522;Tamba ;;
+12;Boruto;M;29;12;Abien;1;468353;Louga;;
+13;Minato;M;25;12;Abien;1;278486;Saint Louis;;
+14;Hachirama;M;21;8;Insuffisant;1;182280;Bamako;;
+15;Tobirama;M;25;14;Bien;0;421142;Abidjan;;
+16;Kyubi;M;30;6;Insuffisant;1;848522;Niamey;;
+17;Sukaku;M;23;10;Passable;0;762838;ouaga;;
+18;Matatabi;F;20;15;Bien;0;523631;Lome;;
