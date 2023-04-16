@@ -1,0 +1,67 @@
+---
+name: Ndiaye
+surname: Mame Thierno
+position: "Elève ingénieur statiticien économiste"
+address: "Dakar, Guediawaye, Wakhinane Ninzat"
+phone: 766101854
+pronouns: her
+profilepic: Thier.jpg
+www: 
+email: "mtnthierno@gmail.com"
+twitter: Mame thierno Ndiaye
+github: mtnthierno12
+linkedin: Mame Thierno Ndiaye
+date: "`r format(Sys.time(), '%B %Y')`"
+A propos de moi: "Je suis un passionné de la Statistique et l’économie. J’aime faire de la recherche sur les théories économiques, sur l’intelligence artérielle, le Machine Learning….En dehors de la Statistique, je suis aussi très passionné par l’astronomie."
+output: vitae::twentyseconds
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae)
+```
+
+# Langues
+
+ * Français : Niveau avancé 
+ * Anglais : Niveau intermédiaire 
+ 
+# Loisirs
+ * Football
+ * Lire
+ * Scrabble
+
+# Education
+
+```{r}
+library(tibble)
+tribble(
+  ~ Degree, ~ Year, ~ Institution, ~ Where,
+  "Baccalauréat", "2019-20", "Lycée Seydina Limamoulaye", "Dakar, Guediawaye",
+  "ISE", "2021- ~", "ENSAE", "Dakar, Colobane",
+) %>% 
+  detailed_entries(Degree, Year, Institution, Where)
+```
+
+# EXPERIENCES ASSOCIATIVES ET SOCIALES  
+
+```{r}
+tribble(
+  ~Year, ~Type, ~Desc,
+  2023, " Trésorier de l’amicale des sénégalais de l’ENSAE. ",
+  "Compétences dévéloppées: Sens de la Responsabilité, Sens de la gestion et de la planification.",
+  2022, " Secrétaire général chargé à la communication et président du club presse de l’amicale des élèves et stagiaires de l’ENSAE. ",
+  "Compétences dévéloppées: Sens de la communication, Capacité de produire des articles écrits.",
+  2021, " Secrétaire à la commission communication de l’amicale des étudiants et stagiaires de l’ENSAE. ", 
+  "Compétences dévéloppées: Sens de la communication, Sens de convaincre, Esprit d’équipe"
+) %>% 
+  brief_entries(
+    glue::glue("Expérience: {Type}"),
+    Year,
+    Desc
+  )
+```
+
+# Compétences
+*QGIS*, *Phyton*, *Stata*, *SPSS*, *R*, *Pack Office(Word, Power Point, Excel+VBA, Publisher)*
+
